@@ -161,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [double-check](./plugins/double-check)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
+- [phrasebook](https://github.com/minus1ms-dev/phrasebook) - Bans phrases Claude overuses ("load-bearing", "you're absolutely right", "delve"). A Stop hook makes Claude resend the reply reworded; a PostToolUse hook catches them in written files. Custom list and regexes, plain Python, MIT.
 - [refractor](./plugins/refractor)
 - [sdlc-wizard](https://github.com/BaseInfinity/agentic-ai-sdlc-wizard) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 - [test-file](./plugins/test-file)
